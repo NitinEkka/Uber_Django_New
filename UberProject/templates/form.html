@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CheckOut</title>
+</head>
+
+<body>
+    <form method="post">
+        {% csrf_token %}
+        <input type="text" name="DBP" placeholder="DBP"><br>
+        <input type="text" name="DAP" placeholder="DAP"><br>
+        <input type="text" name="TMF" placeholder="TMF"><br>
+        <input type="text" name="Distance" placeholder="Distance"><br>
+        <input type="submit">
+
+
+
+    </form>
+</body>
+</html>
